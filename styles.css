@@ -5,18 +5,21 @@ div, ul, li, img, a {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 0;
-    
+    display: flex;
+    flex-direction: column;
 }
+
 
 header, .hero-text-area {
     background-color: #1F2937;
-    padding: 5px 15%;
+    color: #E5E7EB;
+    padding:0% 0%;
 }
+
 .header-area {
-    /* padding: 5px 15% 5px 15%; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 2em;
 }
@@ -27,9 +30,7 @@ header, .hero-text-area {
 
 #header-links a {
     text-decoration: none;
-    color: #E5E7EB;
     font-size: 18px;
-    
 }
 
 
